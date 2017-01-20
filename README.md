@@ -7,8 +7,7 @@ Transparently switch between v0.10 or greater `stream` module or userland copy `
 ## Usage
 
 ``` javascript
-var stream = require('streamss-shim');
-
+var stream = require('streamss-shim')
 ...
 ```
 

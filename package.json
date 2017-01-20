@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "Switch between stream and readable-stream for v0.8",
   "main": "index.js",
-  "scripts": {
-    "lint": "jshint *.js"
-  },
   "repository": {
     "type": "git",
     "url": "github.com/commenthol/streamss-shim"
@@ -21,8 +18,19 @@
     "url": "https://github.com/commenthol/streamss-shim/issues"
   },
   "homepage": "https://github.com/commenthol/streamss-shim",
-  "dependencies": {
-    "readable-stream": "~1.0.33"
+  "scripts": {
+    "lint": "eslint '**/*.js'"
   },
-  "devDependencies": {}
+  "dependencies": {
+    "readable-stream": "~2.2.2"
+  },
+  "devDependencies": {
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "plugins": [
+      "standard"
+    ],
+    "rules": {}
+  }
 }
