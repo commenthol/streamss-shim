@@ -1,6 +1,6 @@
 {
   "name": "streamss-shim",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Switch between stream and readable-stream for v0.8",
   "keywords": [
     "switch",
